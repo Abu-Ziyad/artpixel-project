@@ -1,0 +1,21 @@
+<!-- هيكل HTML مع حقل وصف وحقل رفع ملف -->
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <title>نشر صورة جديدة - ArtPixel</title>
+    <link rel="stylesheet" href="style.css">
+     <!-- ... باقي الروابط ... -->
+</head>
+<body>
+    <!-- الهيدر الخاص بك هنا -->
+    <main class="container">
+         <form id="create-pin-form" class="auth-form" style="max-width: 600px; margin: 40px auto;">
+            <h2>نشر عمل فني جديد</h2>
+            <textarea id="description" placeholder="صف عملك الفني..." rows="4" required></textarea>
+            <input type="file" id="image-file" accept="image/*" required>
+            <button type="submit">نشر الآن</button>
+        </form>
+    </main>
+    <script src="create.js"></script>
+</body>
+</html>

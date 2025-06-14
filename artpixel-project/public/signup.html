@@ -1,0 +1,22 @@
+<!-- هيكل HTML بسيط مع حقول الاسم والإيميل وكلمة المرور -->
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <title>إنشاء حساب - ArtPixel</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- ... باقي الروابط ... -->
+</head>
+<body>
+    <div class="auth-container">
+        <form id="signup-form" class="auth-form">
+            <h2>إنشاء حساب جديد في Art<span>Pixel</span></h2>
+            <input type="text" id="name" placeholder="الاسم الكامل" required>
+            <input type="email" id="email" placeholder="البريد الإلكتروني" required>
+            <input type="password" id="password" placeholder="كلمة المرور" required>
+            <button type="submit">إنشاء حساب</button>
+            <p>لديك حساب بالفعل؟ <a href="login.html">سجل الدخول</a></p>
+        </form>
+    </div>
+    <script src="auth.js"></script>
+</body>
+</html>
